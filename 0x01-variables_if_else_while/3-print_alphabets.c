@@ -22,8 +22,8 @@ while (c <= 'z')
 	{
 		putchar(ca);
 		ca++;
-		putchar('\n');
 	}
+		putchar('\n');
 	return (0);
 
 }
