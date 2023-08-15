@@ -23,7 +23,7 @@ while (c <= 'z')
 		putchar(ca);
 		ca++;
 		putchar('\n');
-
+	}
 	return (0);
 
 }
