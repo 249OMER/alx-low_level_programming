@@ -3,7 +3,7 @@
 /**
  * main - enery point
  *
- * Description: printing letters reversed
+ * Description: printing hexa
  *
  * Return: 0 (Success)
  *
@@ -11,16 +11,17 @@
 
 int main(void)
 {
-	char c = 'z';
+	int num = 48;
 
-	while (c >= 'a')
+	while (num <= 102)
 	{
-		putchar(c);
-		c--;
+		putchar(num);
+		if (num == 57)
+			num += 39;
+			num++;
 	}
 	putchar('\n');
 
 	return (0);
 
 }
-
