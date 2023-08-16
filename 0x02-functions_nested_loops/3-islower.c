@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower.c - printing lower case alphabet
+ * _islower - printing lower case alphabet
  *
  * @c: checks input of function
  *
