@@ -1,4 +1,4 @@
-#include "main.h'
+#include "main.h"
 
 /**
 * add - add numbers
@@ -12,6 +12,7 @@
 int add(int x, int y)
 {
 	int sum = x + y;
+
 	_putchar(sum);
 	return (sum);
 }
