@@ -1,6 +1,12 @@
 #include "main.h"
 
-/***/
+/**
+ *_isalpha(int c) - cheking if input is alphabet
+ *
+ * @c: takes input from another function
+ * Return: 1 if c is a letter, lowercase or uppercase
+ * Returns 0 otherwise
+**/
 
 int _isalpha(int c);
 {
