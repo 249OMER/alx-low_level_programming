@@ -4,12 +4,15 @@
  * is_prime_number - function
  *
  * @n: input
+ * @m: innnn
  *
- * Return: bio bio*/
+ * Return: bio
+ *
+*/
 int check_prime(int n, int m);
 int is_prime_number(int n)
 {
-	return (check_prime(n, 2);
+	return (check_prime(n, 2));
 }
 
 /**
