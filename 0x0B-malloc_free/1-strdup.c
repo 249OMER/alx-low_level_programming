@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib>
 
 /**
  * _strdup - function
@@ -24,6 +25,7 @@ char *_strdup(char *str)
 
 	if (m == 0)
 		return (NULL);
+
 	else
 	{
 		for (; i < size; i++)
